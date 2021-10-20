@@ -1,0 +1,10 @@
+<Context>
+	<Resource 
+		name="jdbc/estacionamento"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		maxActive="20" maxIdle="5" maxWait="10000"
+		username="root" password="root"
+		url="jdbc:mysql://localhost:3306/estacionamento?useSSL=false&amp;serverTimezone=UTC"/>
+</Context>
